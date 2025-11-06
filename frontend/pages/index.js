@@ -1,8 +1,11 @@
 export default function Home() {
   return (
-    <div>
-      <h1>HR-CRM</h1>
-      <p>Welcome to the HR CRM application</p>
+    <div className="container">
+      <div className="glass">
+        <h1>HR‑CRM</h1>
+        <p>Управляйте вакансиями и кандидатами с комфортом
+        </p>
+      </div>
     </div>
   );
 }
